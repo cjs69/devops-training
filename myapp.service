@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 User=root
-ExecStart=/usr/bin/java -jar /home/cjack/service/pizzacut-0.0.1.war
+ExecStart=/usr/bin/java -jar /home/<username>/service/pizzacut-0.0.1.war
 SuccessExitStatus=143
 Restart=on-failure
 RestartSec=10
